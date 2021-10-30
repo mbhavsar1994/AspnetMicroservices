@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag ASPNET_MICROSERVICES_CI:$(date +%s)
+      run: docker build . --file Dockerfile --tag aspnet_microservices_ci:$(date +%s)
